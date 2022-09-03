@@ -149,7 +149,7 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss, mode }) => {
                 }}
               /> */}
             {/* </Flex> */}
-            <Flex justifyContent="space-between" alignItems="center" mb="24px">
+    {/*        <Flex justifyContent="space-between" alignItems="center" mb="24px">
               <Flex alignItems="center">
                 <Text>{t('Expert Mode')}</Text>
                 <QuestionHelper
@@ -190,6 +190,7 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss, mode }) => {
               </Flex>
               <PancakeToggle checked={audioPlay} onChange={toggleSetAudioMode} scale="md" />
             </Flex>
+              */}
           </>
         )}
       </ScrollableContainer>
