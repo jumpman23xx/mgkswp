@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import PageSection from 'components/PageSection'
+import PageSection from '../../components/PageSection'; 
 import { useWeb3React } from '@web3-react/core'
 import useTheme from 'hooks/useTheme'
 import Container from 'components/Layout/Container'
@@ -16,6 +16,7 @@ import CakeDataRow from './components/CakeDataRow'
 import { WedgeTopLeft, InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } from './components/WedgeSvgs'
 import UserBanner from './components/UserBanner'
 import MultipleBanner from './components/Banners/MultipleBanner'
+import React from 'react'
 
 const StyledHeroSection = styled(PageSection)`
   padding-top: 16px;

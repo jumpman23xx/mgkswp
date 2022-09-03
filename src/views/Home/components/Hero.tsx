@@ -3,7 +3,7 @@ import { useWeb3React } from '@web3-react/core'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useTranslation } from '@pancakeswap/localization'
-import useTheme from 'hooks/useTheme'
+import useTheme from '../../../hooks/useTheme'; 
 import Image from 'next/image'
 import styled, { keyframes } from 'styled-components'
 import bunnyImage from '../../../../public/images/new/magikdog.png'
