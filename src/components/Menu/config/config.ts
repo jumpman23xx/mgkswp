@@ -77,11 +77,11 @@ const config: (
       items: [
         {
           label: t('Farms'),
-          href: '/farms',
+          href: 'https://magik.finance/farms',
         },
         {
-          label: t('Pools'),
-          href: '/pools',
+          label: t('Vault'),
+          href: 'https://magik.farm',
         },
       ],
     },  
