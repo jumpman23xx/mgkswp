@@ -257,7 +257,7 @@ const ContributeModal: React.FC<Props> = ({
             <Link
               fontSize="12px"
               display="inline"
-              href="https://docs.pancakeswap.finance/products/ifo-initial-farm-offering"
+              href="https://magikdotfinance.gitbook.io/docs/products/ifo-initial-farm-offering"
               external
             >
               {t('Read more')}
