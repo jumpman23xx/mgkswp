@@ -83,7 +83,9 @@ const Home: React.FC = () => {
       >
         
       </PageSection> */}
-      <PageSection // swap tokens with ease 
+
+      
+  {/*    <PageSection // swap tokens with ease 
         innerProps={{ style: HomeSectionContainerStyles }}
      //   background={theme.colors.background}
           background={
@@ -92,23 +94,24 @@ const Home: React.FC = () => {
               : 'linear-gradient(180deg, #FFFFFF 22%, #D7CAEC 100%)'
           }
         index={2}
-        hasCurvedDivider={false}
-      > {/* literal wedge color 
+        hasCurvedDivider={false}  */}
+        >  {/*
         <OuterWedgeWrapper>
           <InnerWedgeWrapper top fill={theme.isDark ? '#201335' : '#D8CBED'}>
             <WedgeTopLeft />
           </InnerWedgeWrapper>
       </OuterWedgeWrapper> */}
+      {/*
       <MetricsSection />
-      <SalesSection {...swapSectionData(t)} />
-   {/* earn passive income with your crypto*/}   <OuterWedgeWrapper> 
+    <SalesSection {...swapSectionData(t)} /> */}
+   {/* earn passive income with your crypto*/} {/*  <OuterWedgeWrapper> 
           <InnerWedgeWrapper width="150%" top fill={theme.colors.background}>
             <WedgeTopRight />
           </InnerWedgeWrapper>
         </OuterWedgeWrapper>
-        <SalesSection {...earnSectionData(t)} />
+  <SalesSection {...earnSectionData(t)} /> */}
  {/*       <FarmsPoolsRow /> */}
-      </PageSection>
+    {/*  </PageSection> */}
 
 {/*
 
